@@ -1,16 +1,16 @@
+import Header from '../../components/Header';
+import LineChart from '../../components/LineChart';
 import { Box } from '@mui/material'
-import Header from '../../components/Header'
-import PieChart from '../../components/PieChart'
 
-function Pie() {
+function Line() {
     return (
         <Box m="20px">
             <Header title="Pie Chart" subtitle="Simple Pie Chart" />
             <Box height="75vh">
-                <PieChart />
+                <LineChart />
             </Box>
         </Box>
     )
 }
 
-export default Pie
+export default Line
